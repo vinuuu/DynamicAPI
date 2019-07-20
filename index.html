@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<title></title>
+<meta charset="utf-8">
+<base href="/">
+<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<style href="node_modules/bootstrap\dist/css/bootstrap.min.css"></style>
+</head>
+
+<body>
+
+    <div ng-app="TestAngular" ui-router-styles>
+        <a href="/">default</a>
+        <a href="kk">kk</a> {{color}}
+        <!--<ng-view></ng-view>-->
+        <div class="container body">
+            <div class="main_container">
+                <div ui-view="topbar"></div>
+                <div ui-view="midB"></div>
+                <div ui-view="bottompanel"></div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+
+    <script src="index.js"></script>
+    <script src="testpage.js"></script>
+    <script src="factory/testFactory.js"></script>
+    <script src="services/testsvc.js"></script>
+
+    <script src="app/testreg/testregctrl.js"></script>
+    <script src="app/testreg/testregsvc.js"></script>
+    <script src="app/testreg/testregmdl.js"></script>
+
+</body>
+
+</html>

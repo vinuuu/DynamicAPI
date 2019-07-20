@@ -1,0 +1,42 @@
+{
+  "name": "PetDog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.7.7",
+    "body-parser": "^1.15.2",
+    "bootstrap-multiselect": "^0.9.13-1",
+    "connect-multiparty": "^2.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "latest",
+    "grunt-dev-prod-switch": "^0.1.8",
+    "grunt-excel-as-json": "^1.0.1",
+    "grunt-file-creator": "^0.1.3",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-ng-annotate": "^2.0.2",
+    "grunt-replace": "^1.0.1",
+    "grunt-scriptlinker": "^0.1.1",
+    "grunt-string-replace": "^1.3.1",
+    "jshint-stylish": "^2.2.1"
+  },
+  "author": "vinu",
+  "license": "ISC",
+  "buildSettings": {
+    "plugins": [],
+    "css": []
+  }
+}
