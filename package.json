@@ -13,7 +13,7 @@
     "bootstrap-multiselect": "^0.9.13-1",
     "connect-multiparty": "^2.0.0",
     "ejs": "^2.5.5",
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "grunt": "~0.4.4",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
